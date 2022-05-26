@@ -1,8 +1,26 @@
+..webstudio {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background: #e5e5e5;
+}
 .page-header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  background: #ffffff;
 }
 .site-nav {
 }
 .logo-nav {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: #2196f3;
 }
 .list-nav {
 }
@@ -11,6 +29,7 @@
 .link-nav {
 }
 .contacts {
+  color: #757575;
 }
 .contacts-item {
 }
@@ -19,38 +38,47 @@
 .hero {
 }
 .decision {
+  background: #2f303a;
 }
 .decision-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .decision-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 .benefits {
 }
 .benefits-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 .benefits-list {
 }
-.benefits-attention {
+.benefits-points {
 }
-.benefits-punctuality {
-}
-.benefits-punctuality-title {
-}
-.benefits-punctuality-text {
-}
-.benefits-planning {
-}
-.benefits-planning-title {
-}
-.benefits-plunning-text {
-}
-.benefits-technology {
-}
-.benefits-technology-title {
-}
-.benefits-technology-text {
+.benefits-text {
+  font-size: 14px;
+  line-height: 1.71;
+  color: #757575;
 }
 .works {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
 }
 .works-title {
 }
@@ -59,6 +87,11 @@
 .works-item {
 }
 .team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  background: #f5f4fa;
 }
 .team-title {
 }
@@ -67,22 +100,40 @@
 .team-photo {
 }
 .team-participant {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19px;
+  text-align: center;
 }
 .team-position {
+  font-size: 16px;
+  line-height: 1.19px;
+  text-align: center;
+  color: #757575;
 }
 .adress {
+  font-size: 14px;
+  line-height: 1.71;
+  background: #2f303a;
 }
 .adress-logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 .adress-list {
 }
 .adress-details {
 }
 .adress-street {
+  color: #ffffff;
 }
 .adress-mail {
+  color: rgba(255, 255, 255, 0.6);
 }
 .adress-phone {
+  color: rgba(255, 255, 255, 0.6);
 }
 .page-header {
 }
