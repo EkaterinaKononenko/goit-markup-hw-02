@@ -6,6 +6,9 @@
   color: #212121;
   background: #e5e5e5;
 }
+ul {
+  list-style: none;
+}
 .page-header {
   font-weight: 500;
   font-size: 14px;
@@ -47,6 +50,7 @@
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  color: #ffffff;
 }
 .decision-btn {
   font-weight: 700;
