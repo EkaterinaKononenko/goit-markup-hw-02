@@ -1,14 +1,15 @@
-..webstudio {
-  font-family: "Roboto";
+body {
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0.03em;
   color: #212121;
-  background: #e5e5e5;
 }
-ul {
-  list-style: none;
+.link {
+  text-decoration: none;
+  text-transform: none;
 }
+/* ------------Header--------------------- */
 .page-header {
   font-weight: 500;
   font-size: 14px;
@@ -19,7 +20,7 @@ ul {
 .site-nav {
 }
 .logo-nav {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -29,7 +30,11 @@ ul {
 }
 .item-nav {
 }
-.link-nav {
+.link-nav:hover,
+.link-nav:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #2196f3;
 }
 .contacts {
   color: #757575;
@@ -38,8 +43,10 @@ ul {
 }
 .contacts-link {
 }
+/* ------------------ MAIN---------------*/
 .hero {
 }
+/*---------Section decision-------------*/
 .decision {
   background: #2f303a;
 }
@@ -52,7 +59,13 @@ ul {
   text-transform: uppercase;
   color: #ffffff;
 }
+.decision-title:hover,
+.decision-title:focus {
+  color: #2196f3;
+}
 .decision-btn {
+  font-family: inherit;
+  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -60,7 +73,16 @@ ul {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
+.decision-btn:hover,
+.decision-btn:focus {
+  color: #2196f3;
+}
+/*-----------------Section benefits----------------*/
 .benefits {
 }
 .benefits-title {
@@ -69,7 +91,8 @@ ul {
   line-height: 1.14;
   text-transform: uppercase;
 }
-.benefits-list {
+.benefits-title:hover,
+. .benefits-list {
 }
 .benefits-points {
 }
@@ -78,11 +101,14 @@ ul {
   line-height: 1.71;
   color: #757575;
 }
+
+/*--------------------Section works--------------*/
 .works {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
+  background: #ffffff;
 }
 .works-title {
 }
@@ -90,6 +116,7 @@ ul {
 }
 .works-item {
 }
+/*---------------Section TEAM----------------*/
 .team {
   font-weight: 700;
   font-size: 36px;
@@ -115,13 +142,14 @@ ul {
   text-align: center;
   color: #757575;
 }
+/* ----------------FOOTER--------------*/
 .adress {
   font-size: 14px;
   line-height: 1.71;
   background: #2f303a;
 }
 .adress-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -139,24 +167,8 @@ ul {
 .adress-phone {
   color: rgba(255, 255, 255, 0.6);
 }
-.page-header {
-}
-.site-nav {
-}
-.logo-nav {
-}
-.list-nav {
-}
-.item-nav {
-}
-.link-nav {
-}
-.contacts {
-}
-.contacts-item {
-}
-.contacts-link {
-}
+/*-----------PORTFOLIO------------------*/
+
 .portfolio-examples {
 }
 .portfolio-title {
@@ -174,18 +186,4 @@ ul {
 .examples-title {
 }
 .examles-describe {
-}
-.adress {
-}
-.adress-logo {
-}
-.adress-list {
-}
-.adress-details {
-}
-.adress-street {
-}
-.adress-mail {
-}
-.adress-phone {
 }
