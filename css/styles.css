@@ -25,8 +25,6 @@ body {
   letter-spacing: 0.02em;
   background: var(--main-bgd-color);
 }
-.site-nav {
-}
 .logo-nav {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -40,7 +38,9 @@ body {
   text-decoration-color: var(--main-color);
   border: 1px solid #ececec;
 }
-
+.item-nav .link-nav.link.current {
+  color: var(--main-color);
+}
 .text-decor {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -49,10 +49,6 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--header-text-color);
-}
-.list-nav {
-}
-.item-nav {
 }
 .link-nav {
   font-weight: 500;
@@ -76,13 +72,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--contacts-color);
 }
-.contacts-item {
-}
-.contacts-link {
-}
 /* ------------------ MAIN---------------*/
-.hero {
-}
 /*---------Section decision-------------*/
 .hero-part {
   background: var(--header-text-color);
@@ -125,8 +115,6 @@ body {
   text-decoration-color: var(--main-color);
 }
 /*-----------------Section benefits----------------*/
-.benefits {
-}
 .benefits-title {
   font-weight: 700;
   font-size: 14px;
@@ -142,7 +130,7 @@ body {
   padding: 0;
   white-space: nowrap;
   clip-path: inset(100%);
-  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
   overflow: hidden;
 }
 .benefits-title:hover,
@@ -150,10 +138,6 @@ body {
   text-decoration-line: underline;
   text-decoration-color: var(--main-color);
   text-decoration-thickness: 3px;
-}
-. .benefits-list {
-}
-.benefits-points {
 }
 .benefits-text {
   font-size: 14px;
@@ -179,8 +163,6 @@ body {
   text-decoration-line: underline;
   text-decoration-color: var(--main-color);
 }
-.works-list {
-}
 /*---------------Section TEAM----------------*/
 .team {
   font-weight: 700;
@@ -195,10 +177,6 @@ body {
 .team-title:focus {
   text-decoration-line: underline;
   text-decoration-color: var(--main-color);
-}
-.team-title {
-}
-.team-list {
 }
 .team-photo {
   border-radius: 0px;
@@ -256,10 +234,6 @@ body {
 .adress-logo-decor {
   color: var(--main-bgd-color);
 }
-.adress-list {
-}
-.adress-details {
-}
 .adress-street {
   font-size: 14px;
   line-height: 2;
@@ -291,15 +265,6 @@ body {
   text-decoration-color: var(--main-color);
 }
 /*-----------PORTFOLIO------------------*/
-
-.portfolio-examples {
-}
-.portfolio-title {
-}
-.portfolio-list {
-}
-.portfolio-item {
-}
 .portfolio-btn {
   font-family: inherit;
   font-weight: 500;
@@ -318,8 +283,6 @@ body {
   cursor: pointer;
   text-decoration-line: underline;
   text-decoration-color: var(--main-color);
-}
-.examples {
 }
 .examples-item:hover,
 .examples-item:focus {
