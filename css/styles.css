@@ -6,8 +6,8 @@ body {
   color: #212121;
 }
 .link {
+  list-style: none;
   text-decoration: none;
-  text-transform: none;
 }
 /* ------------Header--------------------- */
 .page-header {
@@ -26,6 +26,15 @@ body {
   line-height: 1.2;
   color: #2196f3;
 }
+.text-decor {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2f303a;
+}
 .list-nav {
 }
 .item-nav {
@@ -35,6 +44,8 @@ body {
 .contacts-link:hover,
 .contacts-link:focus {
   color: #2196f3;
+  text-decoration-line: underline;
+  text-decoration-color: #2196f3;
 }
 .contacts {
   color: #757575;
@@ -61,7 +72,8 @@ body {
 }
 .decision-title:hover,
 .decision-title:focus {
-  color: #2196f3;
+  text-decoration-line: underline;
+  text-decoration-color: #2196f3;
 }
 .decision-btn {
   font-family: inherit;
@@ -77,10 +89,12 @@ body {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  cursor: pointer;
 }
 .decision-btn:hover,
 .decision-btn:focus {
-  color: #2196f3;
+  text-decoration-line: underline;
+  text-decoration-color: #2196f3;
 }
 /*-----------------Section benefits----------------*/
 .benefits {
@@ -92,6 +106,11 @@ body {
   text-transform: uppercase;
 }
 .benefits-title:hover,
+.benefits-title:focus {
+  text-decoration-line: underline;
+  text-decoration-color: #2196f3;
+  text-decoration-thickness: 3px;
+}
 . .benefits-list {
 }
 .benefits-points {
@@ -101,7 +120,12 @@ body {
   line-height: 1.71;
   color: #757575;
 }
-
+.benefits-text:hover,
+.benefits-text:focus {
+  text-decoration-line: underline;
+  text-decoration-color: #2196f3;
+  text-decoration-thickness: 3px;
+}
 /*--------------------Section works--------------*/
 .works {
   font-weight: 700;
@@ -110,11 +134,12 @@ body {
   text-align: center;
   background: #ffffff;
 }
-.works-title {
+.works-title:hover,
+.works-title:focus {
+  text-decoration-line: underline;
+  text-decoration-color: #2196f3;
 }
 .works-list {
-}
-.works-item {
 }
 /*---------------Section TEAM----------------*/
 .team {
@@ -123,6 +148,16 @@ body {
   line-height: 1.17;
   text-align: center;
   background: #f5f4fa;
+  width: 1600px;
+}
+.team-title:hover,
+.team-title:focus {
+  text-decoration-line: underline;
+  text-decoration-color: #2196f3;
+}
+.team:hover,
+.team:focus {
+  background: #2196f3;
 }
 .team-title {
 }
@@ -136,14 +171,26 @@ body {
   line-height: 1.19px;
   text-align: center;
 }
+.team-participant:hover,
+.team-participant:focus {
+  text-decoration-line: underline;
+  text-decoration-color: #2196f3;
+}
 .team-position {
   font-size: 16px;
   line-height: 1.19px;
   text-align: center;
   color: #757575;
 }
+.team-position:hover,
+.team-position:focus {
+  text-decoration-line: underline;
+  text-decoration-color: #2196f3;
+}
 /* ----------------FOOTER--------------*/
 .adress {
+  font-family: "Roboto", sans-serif;
+  front-style: normal;
   font-size: 14px;
   line-height: 1.71;
   background: #2f303a;
@@ -154,6 +201,9 @@ body {
   font-size: 26px;
   line-height: 1.19;
 }
+.adress-logo-decor {
+  color: #ffffff;
+}
 .adress-list {
 }
 .adress-details {
@@ -161,11 +211,26 @@ body {
 .adress-street {
   color: #ffffff;
 }
+.adress-street:hover,
+.adress-street:focus {
+  text-decoration-line: underline;
+  text-decoration-color: #2196f3;
+}
 .adress-mail {
   color: rgba(255, 255, 255, 0.6);
 }
+.adress-mail:hover,
+.adress-mail:focus {
+  text-decoration-line: underline;
+  text-decoration-color: #2196f3;
+}
 .adress-phone {
   color: rgba(255, 255, 255, 0.6);
+}
+.adress-phone:hover,
+.adress-phone:focus {
+  text-decoration-line: underline;
+  text-decoration-color: #2196f3;
 }
 /*-----------PORTFOLIO------------------*/
 
@@ -178,12 +243,47 @@ body {
 .portfolio-item {
 }
 .portfolio-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.portfolio-btn:hover,
+.portfolio-btn:hover {
+  color: #ffffff;
+  background: #2196f3;
+  cursor: pointer;
+  text-decoration-line: underline;
+  text-decoration-color: #2196f3;
 }
 .examples {
 }
 .examples-item {
 }
 .examples-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.examples-title:hover,
+.examples-title:focus {
+  text-decoration-line: underline;
+  text-decoration-color: #2196f3;
 }
 .examles-describe {
+  font-size: 16px;
+  line-height: 1.88;
+  color: #757575;
+}
+.examles-describe:hover,
+.examles-describe:focus {
+  text-decoration-line: underline;
+  text-decoration-color: #2196f3;
 }
