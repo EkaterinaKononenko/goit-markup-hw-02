@@ -1,10 +1,3 @@
-body {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: 0.03em;
-  color: var(--header-color);
-}
 :root {
   --header-color: #212121;
   --header-text-color: #2f303a;
@@ -12,6 +5,11 @@ body {
   --main-bgd-color: #ffffff;
   --main-team-color: #f5f4fa;
   --contacts-color: #757575;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--header-color);
+  background-color: var(--main-bgd-color);
 }
 .link {
   list-style: none;
@@ -23,18 +21,17 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  background: var(--main-bgd-color);
 }
 .logo-nav {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
   color: var(--main-color);
 }
 .logo-nav:hover,
 .logo-nav:focus {
-  text-decoration-line: underline;
   text-decoration-color: var(--main-color);
   border: 1px solid #ececec;
 }
@@ -86,18 +83,14 @@ body {
   text-transform: uppercase;
   color: var(--main-bgd-color);
 }
-.decision-title:hover,
-.decision-title:focus {
-  text-decoration-line: underline;
-  text-decoration-color: var(--main-color);
-}
+/*.decision-title:hover {
+  color: var(--main-color);
+}*/
 .decision-btn {
   font-family: inherit;
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -111,8 +104,9 @@ body {
 
 .decision-btn:hover,
 .decision-btn:focus {
-  text-decoration-line: underline;
-  text-decoration-color: var(--main-color);
+  background: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 /*-----------------Section benefits----------------*/
 .benefits-title {
@@ -120,6 +114,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 .visually-hidden {
   position: absolute;
@@ -143,6 +138,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   color: var(--contacts-color);
+  letter-spacing: 0.03em;
 }
 .benefits-text:hover,
 .benefits-text:focus {
@@ -154,9 +150,17 @@ body {
 .works {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.17;
   text-align: center;
-  background: var(--main-bgd-color);
+  letter-spacing: 0.03em;
+}
+.works-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--header-color);
 }
 .works-title:hover,
 .works-title:focus {
@@ -170,8 +174,8 @@ body {
   line-height: 1.17;
   text-align: center;
   background: var(--main-team-color);
-  width: 1600px;
   border-radius: 0px;
+  letter-spacing: 0.03em;
 }
 .team-title:hover,
 .team-title:focus {
@@ -183,7 +187,6 @@ body {
 }
 .team-photo:hover,
 .team-photo:focus {
-  background: var(--main-bgd-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -193,6 +196,8 @@ body {
   font-size: 16px;
   line-height: 1.19px;
   text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--header-color);
 }
 .team-participant:hover,
 .team-participant:focus {
@@ -200,9 +205,11 @@ body {
   text-decoration-color: var(--main-color);
 }
 .team-position {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.19px;
   text-align: center;
+  letter-spacing: 0.03em;
   color: var(--contacts-color);
 }
 .team-position:hover,
@@ -216,6 +223,7 @@ body {
   front-style: normal;
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
   background: var(--header-text-color);
 }
 .adress-logo {
@@ -224,10 +232,10 @@ body {
   font-size: 26px;
   line-height: 1.19;
   color: var(--main-color);
+  letter-spacing: 0.03em;
 }
 .adress-logo:hover,
 .adress-logo:focus {
-  text-decoration-line: underline;
   text-decoration-color: var(--main-color);
   border: 1px solid #ececec;
 }
@@ -238,32 +246,42 @@ body {
   font-size: 14px;
   line-height: 2;
   color: var(--main-bgd-color);
+  letter-spacing: 0.03em;
 }
 .adress-street:hover,
 .adress-street:focus {
   text-decoration-line: underline;
   text-decoration-color: var(--main-color);
+  color: var(--main-color);
 }
 .adress-mail {
   font-size: 14px;
   line-height: 2;
   color: rgba(255, 255, 255, 0.6);
+  letter-spacing: 0.03em;
 }
 .adress-mail:hover,
 .adress-mail:focus {
   text-decoration-line: underline;
   text-decoration-color: var(--main-color);
+  color: var(--main-color);
 }
 .adress-phone {
   font-size: 14px;
   line-height: 2;
   color: rgba(255, 255, 255, 0.6);
+  letter-spacing: 0.03em;
 }
 .adress-phone:hover,
 .adress-phone:focus {
   text-decoration-line: underline;
   text-decoration-color: var(--main-color);
+  color: var(--main-color);
 }
+.adress-list .adress-details {
+  font-style: normal;
+}
+
 /*-----------PORTFOLIO------------------*/
 .portfolio-btn {
   font-family: inherit;
@@ -275,19 +293,23 @@ body {
   color: var(--header-color);
   background: #f5f4fa;
   border-radius: 4px;
+  cursor: pointer;
 }
 .portfolio-btn:hover,
 .portfolio-btn:hover {
   color: var(--main-bgd-color);
   background: var(--main-color);
-  cursor: pointer;
   text-decoration-line: underline;
   text-decoration-color: var(--main-color);
+}
+
+.current-all {
+  color: var(--main-bgd-color);
+  background-color: var(--main-color);
 }
 .examples-item:hover,
 .examples-item:focus {
   box-sizing: border-box;
-  background: var(--main-bgd-color);
   border: 1px solid #eeeeee;
 }
 .examples-title {
@@ -311,7 +333,4 @@ body {
 .examles-describe:focus {
   text-decoration-line: underline;
   text-decoration-color: var(--main-color);
-}
-.adress-list .adress-details {
-  font-style: normal;
 }
